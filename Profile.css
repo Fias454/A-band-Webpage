@@ -1,0 +1,344 @@
+#ListMenu{
+    height: 50px;
+    background-color: black;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    cursor: default;
+}
+#Homebut{
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    transition: background-color 0.1s ease;
+}
+#Homebut:hover{
+    background-color: gray;
+    color: black;
+}
+#bandbut{
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    transition: background-color 0.1s ease;
+}
+#bandbut:hover{
+    background-color: gray;
+    color: black;
+}
+#Tourbut{
+    border: none;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    transition: background-color 0.1s ease;
+}
+#Tourbut:hover{
+    background-color: gray;
+    color: black;
+}
+#Contactbut{
+    border: none;
+    height: 50px;
+    width: 60px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    transition: background-color 0.1s ease;
+}
+#Contactbut:hover{
+    background-color: gray;
+    color: black;
+}
+#Genralimg{
+    width: 100%;
+}
+#NameBand{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(168, 88, 88);
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+#BandPage{
+    display: none;
+}
+#BandIntro{
+    text-align: center;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+#DisBand{
+    font-size: 17px;
+    text-align: center;
+}
+#Num1{
+    display: inline-block;
+    width: 10%;
+    margin-left: 10%;
+
+}
+#Num2{
+    display: inline-block;
+    margin-left: 20%;
+}
+#Num3{
+    display: inline-block;
+    margin-left: 10%;
+}
+#TourPage{
+    width:100%;
+    color: white;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+#AviticNam1{
+    color: gray;
+    text-align: center;
+    font-size: 35px;
+}
+#ParisTick{
+    max-width: 100%;
+    display: inline-block;
+    width: 266px;
+    height: fit-content;
+    background-color: gray;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    box-shadow: 5px 5px 5px gray;
+    transition: box-shadow 0.3s ease;
+    margin-left: 10%;
+
+}
+#ParisTick:hover{
+    box-shadow: 10px 10px 10px gray;
+}
+#ParisImg{
+    width: 266px;
+    height: 200px;
+}
+#Name1{
+    margin-left: 20%;
+    font-weight: 3px;
+}
+#DateName1{
+    margin-left: 20%;
+}
+#DisName1{
+    margin-left: 20%;
+}
+#NewYorkTick{
+    max-width: 100%;
+    display: inline-block;
+    width: 266px;
+    height: fit-content;
+    background-color: gray;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    box-shadow: 5px 5px 5px gray;
+    transition: box-shadow 0.3s ease;
+    margin-left: 10%;
+}
+#NewYorkTick:hover{
+    box-shadow: 10px 10px 10px gray;
+}
+#SanFranciscoTick{
+    display: inline-block;
+    max-width: 100%;
+    width: 266px;
+    height: fit-content;
+    background-color: gray;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    box-shadow: 5px 5px 5px gray;
+    transition: box-shadow 0.3s ease;
+    margin-left: 15%;
+}
+#SanFranciscoTick:hover{
+    box-shadow: 10px 10px 10px gray;
+}
+@media (min-width: 1084px) and (max-width: 1328px){
+    #SanFranciscoTick{
+        display: inline-block;
+        max-width: 100%;
+        width: 266px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+        margin-left: 5%;
+    }
+    #NewYorkTick{
+        max-width: 100%;
+        display: inline-block;
+        width: 266px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+        margin-left: 5%;
+    }
+    #ParisTick{
+        max-width: 100%;
+        display: inline-block;
+        width: 266px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+    
+    }
+}
+@media (min-width: 783px) and (max-width: 1083px){    
+    #Num1{
+        display: inline-block;
+        width: 10%;
+        margin-left: 10%;
+    
+    }
+    #Name1Img{
+        display: inline-block;
+        margin-left: 35%;
+    }
+    #Num3{
+        display: inline-block;
+        margin-left: 10%;
+    }
+    #SanFranciscoTick{
+        display: inline-block;
+        max-width: 100%;
+        width: 200px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+        margin-left: 10%;
+    }
+    #NewYorkTick{
+        max-width: 100%;
+        display: inline-block;
+        width: 200px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+    }
+    #ParisImg{
+        width: 100%;
+    }
+    #ParisTick{
+        max-width: 100%;
+        display: inline-block;
+        width: 200px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+    }
+}
+@media (min-width: 578px) and (max-width:782px) {
+    #Num1{
+        display: block;
+        width: 10%;
+    
+    }
+    #Name1Img{
+        display: block;
+    }
+    #Num3{
+        display: block;
+    }
+    #SanFranciscoTick{
+        display: inline-block;
+        max-width: 100%;
+        width: 266px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+        margin-left: 5%;
+    }
+    #NewYorkTick{
+        max-width: 100%;
+        display: inline-block;
+        width: 266px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+        margin-left: 5%;
+    }
+    #ParisTick{
+        max-width: 100%;
+        display: inline-block;
+        width: 266px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+    
+    }
+}
+@media (min-width: 250px) and (max-width: 1083px){
+    #Num1{
+        display: block;
+        width: 10%;
+    
+    }
+    
+    #Name2Img{
+        max-width: 100%;
+    }
+    #Name3Img{
+        max-width: 100%;
+    }
+    #Num3{
+        display: block;
+    }
+    #SanFranciscoTick{
+        max-width: 100%;
+        width: 200px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+        margin-left: 10%;
+    }
+    #NewYorkTick{
+    display: inline-block;
+    max-width: 100%;
+    width: 200px;
+    height: fit-content;
+    background-color: gray;
+    font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    box-shadow: 5px 5px 5px gray;
+    transition: box-shadow 0.3s ease;
+    margin-left: 10%;
+}
+#ParisImg{
+    width: 100%;
+}
+#ParisTick{
+        max-width: 100%;
+        width: 200px;
+        height: fit-content;
+        background-color: gray;
+        font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        box-shadow: 5px 5px 5px gray;
+        transition: box-shadow 0.3s ease;
+    }
+#Num2{
+        display: inline-block;
+        margin-left: 10%;
+    }
+}
